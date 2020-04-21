@@ -4,12 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--  Owl Carousel  -->
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
     <!-- Style CSS   -->
     <link rel="stylesheet" href="style.css">
 
@@ -143,16 +144,89 @@
         </div>
     </div>
 
-    <div>
-        <!-- Set up your HTML -->
+    <div class="container">
+        <h2 class="heading-2">Featured members</h2>
+        <span class="redline"><span class="hot-redline"></span></span>
+
         <div class="owl-carousel">
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
+            <div class="card carousel-card item" style="max-width: 540px;">
+                <div class="carousel-card-body">
+                    <div class="d-flex">
+                        <img src="img/Layer40.png" class="carousel-card-img" alt="img" width="110" height="115">
+                        <div>
+                            <h5 class="carousel-card-title">Chobial Production</h5>
+                            <h6 class="carousel-card-subtitle">Company</h6>
+                            <p class="carousel-card-adress">Australia</p>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="card-info-list">
+                            <li>16 Wins</li>
+                            <li>26 Nominations</li>
+                            <li>5k Views</li>
+                            <li>85 Rating</li>
+                        </ul>
+                        <p class="carousel-card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                    </div>
+                    <a class="card-view-link" href="#">View Profile</a>
+                </div>
+            </div>
+            <div class="card carousel-card item" style="max-width: 540px;">
+                <div class="carousel-card-body">
+                    <div class="d-flex">
+                        <img src="img/Layer19copy.png" class="carousel-card-img" alt="img" width="110" height="115">
+                        <div>
+                            <h5 class="carousel-card-title">Crystal Rainey</h5>
+                            <h6 class="carousel-card-subtitle">Actor</h6>
+                            <p class="carousel-card-adress">Albania</p>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="card-info-list">
+                            <li>16 Wins</li>
+                            <li>26 Nominations</li>
+                            <li>5k Views</li>
+                            <li>85 Rating</li>
+                        </ul>
+                        <p class="carousel-card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                    </div>
+                    <a class="card-view-link" href="#">View Profile</a>
+                </div>
+            </div>
+            <div class="card carousel-card item" style="max-width: 540px;">
+                <div class="carousel-card-body">
+                    <div class="d-flex">
+                        <img src="img/Layer40.png" class="carousel-card-img" alt="img" width="110" height="115">
+                        <div>
+                            <h5 class="carousel-card-title">Chobial Production</h5>
+                            <h6 class="carousel-card-subtitle">Company</h6>
+                            <p class="carousel-card-adress">Australia</p>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="card-info-list">
+                            <li>16 Wins</li>
+                            <li>26 Nominations</li>
+                            <li>5k Views</li>
+                            <li>85 Rating</li>
+                        </ul>
+                        <p class="carousel-card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                    </div>
+                    <a class="card-view-link" href="#">View Profile</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -162,11 +236,33 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
     $(document).ready(function(){
-        $(".owl-carousel").owlCarousel();
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:30,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false,
+                    autoplay:true,
+                    autoplayTimeout:6000,
+                    autoplayHoverPause:true
+                },
+                600:{
+                    items:2,
+                    nav:true
+                },
+                1000:{
+                    items:2,
+                    nav:true,
+                }
+            }
+        })
     });
 </script>
-
 </body>
 </html>

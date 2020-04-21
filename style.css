@@ -165,6 +165,89 @@ body {
     border: 1px solid #172e55;
 }
 
+.redline {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 1px;
+    background-color: #ed1461;
+    margin-bottom: 65px;
+}
+.hot-redline {
+    width: 108px;
+    height: 5px;
+    background-color: #ed1461;
+}
+
+.heading-2 {
+    margin-top: 75px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2.25rem;
+    letter-spacing: 0;
+    line-height: 68px;
+    color: #172e55;
+    font-weight: bold;
+}
+/* ////////////// CARD CAROUSEL ///////////////// */
+.carousel-card {
+    border-radius: 5px;
+    background-color: #172e55;
+}
+.carousel-card-body {
+    padding: 30px 35px 25px 35px;
+}
+.carousel-card-img {
+    margin-right: 25px;
+    max-width: 117px;
+    width: 117px;
+    height: 111px;
+    border-radius: 3px;
+    background-color: #ed1461;
+}
+.carousel-card-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-card-subtitle {
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+.carousel-card-adress {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #ed1461;
+}
+.card-info-list {
+    font-size: 0.875rem;
+    color: #fff;
+    background-color: #ed1461;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 20px 0 15px 0;
+}
+.carousel-card-text {
+    font-size: 0.81rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.card-view-link {
+    float: right;
+    color: #ed1461;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
 @media only screen and (max-width: 992px) {
     .navbar-nav {
         display: none;
@@ -177,3 +260,21 @@ body {
         width: auto;
     }
 }
+
+/* owl carousel*/
+    .owl-prev {
+        position: absolute;
+        top: 40%;
+        font-size: 3rem!important;
+        left: -25px;
+    }
+    .owl-next {
+        font-size: 3rem!important;
+        position: absolute;
+        top: 40%;
+        right: -25px;
+    }
+
+    .owl-next:focus, .owl-prev:focus {
+        outline: none;
+    }
