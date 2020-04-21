@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .btn-1 {
     font-size: 0.875rem;
     letter-spacing: 0;
@@ -130,11 +131,8 @@ body {
     font-size: 3rem;
     font-weight: bold;
     line-height: 1.3;
-    color: #4c4c4c;
+    color: #172e55;
     text-transform: uppercase;
-}
-.heading-1 span {
-    background: #dddcd6;
 }
 .search-input {
     height: 50px;
@@ -208,6 +206,9 @@ body {
     border-radius: 3px;
     background-color: #ed1461;
 }
+.card-heart {
+    text-align: right;
+}
 .carousel-card-title {
     font-size: 1.5rem;
     color: #ffffff;
@@ -247,6 +248,31 @@ body {
     font-size: 0.875rem;
     font-weight: 500;
 }
+.card-view-link:hover{
+    color: #ed1461;
+    text-decoration: underline;
+}
+
+.text-md {
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 30px;
+    color: #262626;
+    text-align: center;
+}
+
+.step-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("img/Ellipse4.png") center center no-repeat;
+    background-size: cover;
+    width: 152px;
+    height: 152px;
+}
+
+
+
 
 @media only screen and (max-width: 992px) {
     .navbar-nav {
@@ -269,6 +295,8 @@ body {
         left: -25px;
     }
     .owl-next {
+        font-family: FontAwesome;
+        content: "\f095";
         font-size: 3rem!important;
         position: absolute;
         top: 40%;
