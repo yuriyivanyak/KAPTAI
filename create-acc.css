@@ -1,0 +1,55 @@
+.create-profile-container {
+    padding-top: 25px;
+    background-color: #ed1461;
+}
+.create-profile {
+    padding-top: 125px;
+    padding-bottom: 85px;
+}
+.create-profile-title {
+    margin-bottom: 50px;
+    font-size: 3rem ;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.create-profile-text {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.btn-profile {
+    font-size: .875rem;
+    font-weight: 500;
+    border-radius: 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-transform: uppercase;
+    width: 50%;
+}
+.btn-create-profile {
+    color: #fff;
+    background-color: #172e55;
+    margin-right: 20px;
+}
+.btn-create-profile:hover {
+    background: #fff;
+    color: #172e55;
+}
+.btn-see-plans {
+    color: #ed1461;
+    background-color: #ffffff;
+}
+@media  screen and (max-width: 998px) {
+    .create-profile {
+        padding-top: 65px;
+        padding-bottom: 0;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .create-profile-img {
+        max-height: 320px;
+    }
+}
